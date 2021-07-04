@@ -35,4 +35,4 @@ jobs:
           push: true
           tags: |
             andradedocker/rotten-potatoes:latest
-            andradedocker/rotten-potatoes: ${{ github.run_number }}
+            andradedocker/rotten-potatoes:${{ github.run_number }}
